@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Banks>
+	<bankList>
+		<bank>
+			<bankId>1235</bankId>
+			<bankCode>NW100</bankCode>
+			<bankName>Natwest</bankName>
+			<contactDetailsCode>1000</contactDetailsCode>
+			<effectiveDate>2014-01-11</effectiveDate>
+			<active>Y</active>
+		</bank>
+	</bankList>
+</Banks>

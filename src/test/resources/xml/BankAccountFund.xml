@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Banks>
+	<bankList>
+		<bank>
+			<bankId>1234</bankId>
+			<bankCode>NW100</bankCode>
+			<bankName>Natwest</bankName>
+			<contactDetailsCode>1000</contactDetailsCode>
+			<effectiveDate>2014-01-11</effectiveDate>
+			<active>Y</active>
+			<accounts>
+				<accountsList>
+					<account>
+						<accountid>12342</accountid>
+						<accountName>BlackRock</accountName>
+						<effectiveDate>2014-01-11</effectiveDate>
+						<active>Y</active>
+						<funds>
+							<fundList>
+								<fund>
+									<fundId>123421</fundId>
+									<fundName>Imp</fundName>
+									<buy>10.20</buy>
+									<sell>10.10</sell>
+									<yield>5</yield>
+									<effectiveDate>2014-01-11</effectiveDate>
+									<timeStamp>2016-01-25 21:34:55</timeStamp>
+								</fund>
+							</fundList>
+						</funds>
+					</account>
+				</accountsList>
+			</accounts>
+		</bank>
+	</bankList>
+</Banks>

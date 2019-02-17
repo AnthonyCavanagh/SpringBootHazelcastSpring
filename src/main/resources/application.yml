@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  contextPath: /BankWebService
+  
+logging:
+  level:
+    ROOT: DEBUG
+    org.hibernate: DEBUG
+    org.springframework.web: ERROR
+    com.cav.spring.service.bank: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: banklog.log
