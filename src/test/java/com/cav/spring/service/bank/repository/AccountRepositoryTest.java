@@ -58,10 +58,9 @@ public class AccountRepositoryTest extends AbstractRepositoryTest {
 		
 		accounts = accountRepository.listAccounts(createAccountsIds(NEW_ACCOUNT_ID));
 		AccountPOJO account = accounts.getAccountsList().iterator().next();
-		Iterator<FundPOJO> accountiter = account.getFunds().getFundList().iterator();
+		List<FundPOJO> accountList = account.getFunds().getFundList();
 		
-		assertEquals(NEW_FUND_ID,accountiter.next().getFundId());
-		assertEquals(DEFAULT_FUND_ID,accountiter.next().getFundId());
+		assertEquals(2, accountList.size());
 		
 		List<AccountId> accountIds = createAccountsIds(NEW_ACCOUNT_ID);
 		accountRepository.removeAccounts(accountIds);
